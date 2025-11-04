@@ -1,0 +1,527 @@
+﻿<UserControl x:Class="RAM100_PRISM_2.Views.PresetManager" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RAM100_PRISM_2.Views"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:b="clr-namespace:RAM100_PRISM_2.Base"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             
+             xmlns:keyboard="clr-namespace:KeyBoard.WPF.Behavior;assembly=KeyBoard.WPF"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="740" d:DesignWidth="1280">
+
+    <UserControl.Resources>
+
+
+
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        <!-- 基础按钮样式 -->
+        <Style x:Key="BaseTouchButton" TargetType="Button">
+            <Setter Property="Background" Value="#ECF0F1"/>
+            <Setter Property="Foreground" Value="#2C3E50"/>
+            <Setter Property="BorderBrush" Value="#BDC3C7"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                     Background="{TemplateBinding Background}" 
+                     BorderBrush="{TemplateBinding BorderBrush}" 
+                     BorderThickness="{TemplateBinding BorderThickness}"
+                     CornerRadius="4">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#D6DBDF"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#AEB6BF"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Background" Value="#F8F9F9"/>
+                                <Setter Property="Foreground" Value="#BDC3C7"/>
+                                <Setter Property="BorderBrush" Value="#EAEDED"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- 标准触摸按钮样式 -->
+        <Style x:Key="TouchButton" TargetType="Button" BasedOn="{StaticResource BaseTouchButton}">
+            <Setter Property="MinWidth" Value="20"/>
+            <Setter Property="MinHeight" Value="12"/>
+            <Setter Property="Padding" Value="10,5"/>
+        </Style>
+
+        <!-- 阴影效果 -->
+        <DropShadowEffect x:Key="ShadowEffect" BlurRadius="10" ShadowDepth="2" Opacity="0.2" Color="#000000"/>
+
+        <!-- 触摸友好的文本框样式 -->
+        <Style x:Key="TouchTextBox" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#BDC3C7"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Foreground" Value="#2C3E50"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" 
+                     BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                     CornerRadius="4">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="4,0"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="#3498DB"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- 成功按钮样式 -->
+        <Style x:Key="SuccessTouchButton" TargetType="Button" BasedOn="{StaticResource TouchButton}">
+            <Setter Property="Background" Value="#27AE60"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#219653"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#219653"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#1E8449"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- 危险按钮样式 -->
+        <Style x:Key="DangerTouchButton" TargetType="Button" BasedOn="{StaticResource TouchButton}">
+            <Setter Property="Background" Value="#E74C3C"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#C0392B"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#C0392B"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#A93226"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- 主要操作按钮样式 -->
+        <Style x:Key="PrimaryTouchButton" TargetType="Button" BasedOn="{StaticResource TouchButton}">
+            <Setter Property="Background" Value="#3498DB"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#2980B9"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#2980B9"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#21618C"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+
+
+
+
+
+
+        <!-- DataGrid样式 -->
+        <Style x:Key="CustomDataGrid" TargetType="DataGrid" BasedOn="{StaticResource {x:Type DataGrid}}">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#2C3E50"/>
+            <Setter Property="BorderBrush" Value="#DDDDDD"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="AlternatingRowBackground" Value="#F8F9F9"/>
+            <Setter Property="GridLinesVisibility" Value="None"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <Setter Property="AutoGenerateColumns" Value="False"/>
+            <Setter Property="CanUserAddRows" Value="False"/>
+            <Setter Property="CanUserDeleteRows" Value="False"/>
+            <Setter Property="CanUserReorderColumns" Value="False"/>
+            <Setter Property="CanUserResizeColumns" Value="True"/>
+            <Setter Property="CanUserResizeRows" Value="False"/>
+            <Setter Property="CanUserSortColumns" Value="True"/>
+            <Setter Property="IsReadOnly" Value="False"/>
+            <Setter Property="SelectionMode" Value="Single"/>
+            <Setter Property="SelectionUnit" Value="FullRow"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="#EEEEEE"/>
+            <Setter Property="VerticalGridLinesBrush" Value="#EEEEEE"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+        <!-- DataGrid列标题样式 -->
+        <Style x:Key="ColumnHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#ECF0F1"/>
+            <Setter Property="Foreground" Value="#2C3E50"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="BorderBrush" Value="#DDDDDD"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+        </Style>
+
+        <!-- DataGrid行样式 -->
+        <Style x:Key="DataGridRowStyle" TargetType="DataGridRow">
+            <Setter Property="Background" Value="#E8F4FD"/>
+            <Setter Property="Foreground" Value="#000000"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#E8F4FD"/>
+                    <Setter Property="Foreground" Value="#2980B9"/>
+                    <Setter Property="BorderBrush" Value="#E8F4F4"/>
+                    <Setter Property="FontSize" Value="18"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="False">
+                    <Setter Property="Background" Value="#E8F4FD"/>
+                    <Setter Property="Foreground" Value="#2980B9"/>
+                    <Setter Property="BorderBrush" Value="#E8F4F4"/>
+                </Trigger>
+                <!--<Trigger Property="IsMouseOver" Value="True">-->
+                    <!-- 修改这里的背景色 --><!--
+                    <Setter Property="Background" Value="#F5F5F0"/>
+                    <Setter Property="Foreground" Value="#000000"/>
+                    --><!-- 更柔和的灰色 -->
+                    <!-- 或者使用更浅的蓝色 -->
+                    <!-- <Setter Property="Background" Value="#F0F8FF"/> -->
+                <!--</Trigger>-->
+                <Trigger Property="IsMouseOver" Value="False">
+                     <!--修改这里的背景色--> 
+                    <Setter Property="Background" Value="#F5F5F5"/>
+                    <Setter Property="Foreground" Value="black"/>
+                     <!--更柔和的灰色--> 
+                      
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <!--修改这里的背景色-->
+                    <Setter Property="Background" Value="#F5F5F5"/>
+                    <Setter Property="Foreground" Value="DarkRed"/>
+                    <!--更柔和的灰色-->
+
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- ListBox样式 -->
+        <Style x:Key="CustomListBox" TargetType="ListBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#2C3E50"/>
+            <Setter Property="BorderBrush" Value="#DDDDDD"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+
+        <!-- ListBoxItem样式 -->
+        <Style x:Key="CustomListBoxItem" TargetType="ListBoxItem">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#2C3E50"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#E8F4FD"/>
+                                <Setter TargetName="Bd" Property="BorderBrush" Value="#3498DB"/>
+                                <Setter Property="Foreground" Value="#2980B9"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#F0F7FF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="0" Background="#F5F5F5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- 标题栏 -->
+        <Border Grid.Row="0" 
+                Background="White" 
+                Padding="15" 
+                CornerRadius="8" 
+                Margin="0,0,0,10"
+                Effect="{StaticResource ShadowEffect}">
+            <TextBlock Text="预设管理" 
+                       Foreground="#2C3E50" 
+                       FontSize="25" 
+                       FontWeight="Bold"/>
+        </Border>
+
+        <!-- 主要内容 -->
+        <Grid Grid.Row="1" 
+              Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- 预设列表 -->
+            <Border Grid.Column="0" 
+                    Background="White" 
+                    CornerRadius="8" 
+                    Margin="0,0,5,0" 
+                    Padding="15"
+                    Effect="{StaticResource ShadowEffect}">
+                <StackPanel>
+                    <TextBlock Text="预设列表" 
+                               Foreground="#2C3E50" 
+                               FontSize="21" 
+                               FontWeight="Bold" 
+                               Margin="0,0,0,12"/>
+
+                    <ListBox x:Name="PresetListBox" 
+                             ItemsSource="{Binding Presets}" 
+                             SelectedItem="{Binding SelectedPreset}" 
+                             Height="200" Style="{StaticResource CustomListBox}"
+                             ItemContainerStyle="{StaticResource CustomListBoxItem}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}" 
+                                           Foreground="#2C3E50" 
+                                           Margin="2"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <StackPanel Orientation="Horizontal" 
+                                HorizontalAlignment="Center" 
+                                Margin="0,0,0,15">
+                        <Button Content="新建预设" 
+                                Command="{Binding NewPresetCommand}" 
+                                Style="{StaticResource TouchButton}" 
+                                Width="80" 
+                                Margin="0,0,10,0" 
+                                Height="55"/>
+                        <Button Content="删除预设" 
+                                Command="{Binding DeletePresetCommand}" 
+                                Style="{StaticResource TouchButton}" 
+                                Width="80" Margin="0,0,10,0"/>
+                        <Button Content="保存预设" 
+                                Command="{Binding SavePresetCommand}" 
+                                Style="{StaticResource TouchButton}" 
+                                Width="80" 
+                                Margin="0,0,10,0"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="0,0,0,10">
+                        <TextBlock Text="预设名称:" Foreground="#555555" FontSize="18" Margin="0,0,0,5"/>
+                        <TextBox Text="{Binding SelectedPreset.Name, UpdateSourceTrigger=PropertyChanged}" 
+                                 IsEnabled="{Binding IsPresetSelected}" Style="{StaticResource TouchTextBox}" Height="47"
+                                 >
+                            <i:Interaction.Behaviors>
+                                <keyboard:KeyboardBehavior UCBackground="Gray"/>
+                            </i:Interaction.Behaviors>
+                        </TextBox>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- 时间段管理 -->
+            <Border Grid.Column="1" 
+                    Background="White" 
+                    CornerRadius="8" 
+                    Margin="5,0,0,0" 
+                    Padding="15"
+                    Effect="{StaticResource ShadowEffect}">
+                <StackPanel Margin="0,0,0,-13">
+                    <TextBlock Text="时间段配置" 
+                               Foreground="#2C3E50" 
+                               FontSize="21" 
+                               FontWeight="Bold" 
+                               Margin="0,0,0,12"/>
+
+                    <DataGrid x:Name="TimeSlotsGrid" 
+                              ItemsSource="{Binding SelectedPreset.TimeSlots}" 
+                              Height="200" 
+                              Style="{StaticResource CustomDataGrid}"
+                              ColumnHeaderStyle="{StaticResource ColumnHeaderStyle}"
+                              RowStyle="{StaticResource DataGridRowStyle}"
+                              LoadingRow="TimeSlotsGrid_LoadingRow">
+                        <DataGrid.Columns>
+                            <!-- 序号列 -->
+                            <DataGridTextColumn Header="序号"
+                                                Width="60" 
+                                                IsReadOnly="True" 
+                                                Binding="{Binding RelativeSource={RelativeSource AncestorType=DataGridRow}, Path=Tag}">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="FontSize" Value="18"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Header="时长(分钟)" 
+                                                Binding="{Binding Duration}" 
+                                                Width="100"
+                                                >
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="FontSize" Value="18"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="频率(Hz)" 
+                                                Binding="{Binding Frequency, StringFormat=F1}" 
+                                                Width="100">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="FontSize" Value="18"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="强度(%)" 
+                                                Binding="{Binding Intensity, StringFormat=F2}" 
+                                                Width="100"
+                                                >
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="FontSize" Value="18"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <StackPanel Orientation="Horizontal" 
+                                HorizontalAlignment="Center" 
+                                Margin="0,0,0,15">
+                        <Button Content="添加时间段" 
+                                Command="{Binding AddTimeSlotCommand}" 
+                                IsEnabled="{Binding IsPresetSelected}" 
+                                Style="{StaticResource TouchButton}" 
+                                Width="190" 
+                                Margin="0,0,10,0" 
+                                Height="64"/>
+                        <Button Content="删除时间段" 
+                                Command="{Binding DeleteTimeSlotCommand}" 
+                                IsEnabled="{Binding IsTimeSlotSelected}" 
+                                Style="{StaticResource TouchButton}" 
+                                Width="190" Height="64"/>
+                    </StackPanel>
+
+                    <!-- 时间段编辑 -->
+                    <Border BorderBrush="#DDDDDD" 
+                            BorderThickness="1" 
+                            CornerRadius="4" 
+                            Padding="10" 
+                            Background="#F8F9F9" 
+                            IsEnabled="{Binding IsTimeSlotSelected}" Width="360" Height="135">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="时长(分):" Grid.Row="0" Grid.Column="0" Foreground="#555555" 
+                                       VerticalAlignment="Center" Margin="0,0,10,10" FontSize="18"/>
+                            <TextBox Text="{Binding SelectedTimeSlot.Duration}" Grid.Row="0" Grid.Column="1" 
+                                     Width="120" Height="30" Style="{StaticResource TouchTextBox}" Margin="0,0,0,10">
+                                <i:Interaction.Behaviors>
+                                    <keyboard:NumericKeyboardBehavior UCBackground="Gray"/>
+                                </i:Interaction.Behaviors>
+                            </TextBox>
+
+                            <TextBlock Text="频率(Hz):" Grid.Row="1" Grid.Column="0" Foreground="#555555" 
+                                       VerticalAlignment="Center" Margin="0,0,10,10" FontSize="18"/>
+                            <TextBox Text="{Binding SelectedTimeSlot.Frequency, StringFormat=F1}" Grid.Row="1" Grid.Column="1" 
+                                     Width="120" Height="30" Style="{StaticResource TouchTextBox}" Margin="0,0,0,10">
+                                <i:Interaction.Behaviors>
+                                    <keyboard:NumericKeyboardBehavior UCBackground="Gray"/>
+                                </i:Interaction.Behaviors>
+                            </TextBox>
+
+                            <TextBlock Text="强度(%):" Grid.Row="2" Grid.Column="0" Foreground="#555555" 
+                                       VerticalAlignment="Center" Margin="0,0,10,0"  FontSize="18"/>
+                            <TextBox Text="{Binding SelectedTimeSlot.Intensity, StringFormat=F2}" Grid.Row="2" Grid.Column="1" 
+                                     Width="120" Height="30" Style="{StaticResource TouchTextBox}">
+                                <i:Interaction.Behaviors>
+                                    <keyboard:NumericKeyboardBehavior UCBackground="Gray"/>
+                                </i:Interaction.Behaviors>
+                            </TextBox>
+                        </Grid>
+                    </Border>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 底部操作栏 --><!--
+        <Border Grid.Row="1" Background="White" Padding="10" CornerRadius="8"
+                Effect="{StaticResource ShadowEffect}" Margin="0,610,0,0" Grid.RowSpan="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="保存预设" Command="{Binding SavePresetCommand}" 
+                        Style="{StaticResource PrimaryTouchButton}" Width="140" Margin="0,0,15,0" Height="60" FontSize="20"/>
+                <Button Content="加载预设" Command="{Binding LoadPresetCommand}" 
+                        Style="{StaticResource TouchButton}" Width="140" Margin="0,0,15,0" Height="60" FontSize="20"/>
+                <Button Content="应用预设" Command="{Binding ApplyPresetCommand}"  Height="60" FontSize="20"
+                        Style="{StaticResource SuccessTouchButton}" Width="140" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.449"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.392"/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+            </StackPanel>
+        </Border>-->
+    </Grid>
+</UserControl>

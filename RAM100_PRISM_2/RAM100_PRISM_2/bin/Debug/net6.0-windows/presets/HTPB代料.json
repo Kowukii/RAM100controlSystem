@@ -1,0 +1,20 @@
+{
+  "Name": "HTPB代料",
+  "TimeSlots": [
+    {
+      "Duration": 1,
+      "Frequency": 2.0,
+      "Intensity": 3.0
+    },
+    {
+      "Duration": 4,
+      "Frequency": 5.0,
+      "Intensity": 6.0
+    },
+    {
+      "Duration": 7,
+      "Frequency": 8.0,
+      "Intensity": 9.0
+    }
+  ]
+}

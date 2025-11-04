@@ -1,0 +1,80 @@
+﻿<Window x:Class="RAM100_PRISM_2.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/" 
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="{Binding Title}" Height="800" Width="1280" 
+        WindowStyle="None" 
+        Icon="/images/ram_icon.png"
+        AllowsTransparency="True" 
+        WindowState="Maximized"    
+        
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition  />
+        </Grid.RowDefinitions>
+
+        <Grid Background="#F5F5F5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <!-- 左侧按钮组 -->
+                <ColumnDefinition Width="*" />
+                <!-- 中间空白，用于将时间显示推到中间 -->
+                <ColumnDefinition Width="Auto" />
+                <!-- 时间显示，设置为Auto，然后通过HorizontalAlignment="Center"使其在中间列中居中 -->
+                <ColumnDefinition Width="*" />
+                <!-- 右侧空白，用于平衡 -->
+                <ColumnDefinition Width="Auto" />
+                <!-- 右侧关闭按钮 -->
+            </Grid.ColumnDefinitions>
+
+            <!-- 左侧按钮组 -->
+            <StackPanel Orientation="Horizontal" 
+                        Grid.Column="0">
+                <Button FontFamily="Nirmala UI" 
+                        FontWeight="UltraLight" 
+                        Content="返回" 
+                        Command="{Binding GoForwardCommand}" 
+                        Margin="5,0,5,0" 
+                        Height="50" 
+                        Width="100" 
+                        FontSize="25"/>
+                <!--<Button FontFamily="Segoe UI" 
+                        FontWeight="Regular" 
+                        Content="Edit" 
+                        Command="{Binding GoBackCommand}" 
+                        Margin="5,0,5,0" 
+                        Height="50" 
+                        Width="100"/>-->
+            </StackPanel>
+
+            <!-- 时间显示，放在中间列（第2列，索引从0开始） -->
+            <TextBlock Text="{Binding CurrentTime, Mode=OneWay}" 
+                       Grid.Column="2" 
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Center" 
+                       Padding="10" 
+                       FontSize="24" 
+                       Foreground="Black"
+                       Margin="0, 5"/>
+
+            <!-- 右侧关闭按钮 -->
+            <!--<Button Grid.Column="4" FontFamily="Segoe UI" FontWeight="Bold" Content="X" Command="{Binding ShutDownCommand}" FontSize="25" 
+                Margin="5,0,5,0" Height="40" Width="67" Background="DarkRed"/>-->
+        </Grid>
+
+        <ContentControl Grid.Row="1" prism:RegionManager.RegionName="ContentRegion">
+            
+        </ContentControl>
+        
+    </Grid>
+</Window>

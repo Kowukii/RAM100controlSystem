@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\views\\directionpdf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\views\\directionpdf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\views\\index.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\views\\index.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\views\\toolpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\views\\toolpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\views\\viewa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\views\\viewa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\views\\spview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\views\\spview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\viewmodels\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\viewmodels\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\views\\index.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\views\\index.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\ram100_prism_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\ram100_prism_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|x:\\software\\mcri_ram\\ram100_prism_2 - \u526F\u672C\\ram100_prism_2\\models\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F81329A-44C0-46F0-9B96-A90E8A4F900A}|RAM100_PRISM_2\\RAM100_PRISM_2.csproj|solutionrelative:ram100_prism_2\\models\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\App.xaml",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\App.xaml",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\App.xaml",
+              "RelativeToolTip": "RAM100_PRISM_2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T10:04:06.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StringToVisibilityConverter.cs",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Converters\\StringToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\Converters\\StringToVisibilityConverter.cs",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Converters\\StringToVisibilityConverter.cs",
+              "RelativeToolTip": "RAM100_PRISM_2\\Converters\\StringToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T10:02:46.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewA.xaml.cs",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\ViewA.xaml.cs",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\Views\\ViewA.xaml.cs",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\ViewA.xaml.cs",
+              "RelativeToolTip": "RAM100_PRISM_2\\Views\\ViewA.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T09:47:28.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SpView.xaml.cs",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\SpView.xaml.cs",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\Views\\SpView.xaml.cs",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\SpView.xaml.cs",
+              "RelativeToolTip": "RAM100_PRISM_2\\Views\\SpView.xaml.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T09:47:16.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToolPage.xaml.cs",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\ToolPage.xaml.cs",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\Views\\ToolPage.xaml.cs",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\ToolPage.xaml.cs",
+              "RelativeToolTip": "RAM100_PRISM_2\\Views\\ToolPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:09:18.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IndexViewModel.cs",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\ViewModels\\IndexViewModel.cs",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\ViewModels\\IndexViewModel.cs",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\ViewModels\\IndexViewModel.cs",
+              "RelativeToolTip": "RAM100_PRISM_2\\ViewModels\\IndexViewModel.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAgwMcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:08:33.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.xaml.cs",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\Index.xaml.cs",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\Views\\Index.xaml.cs",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\Index.xaml.cs",
+              "RelativeToolTip": "RAM100_PRISM_2\\Views\\Index.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:08:30.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\App.xaml.cs",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\App.xaml.cs",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\App.xaml.cs",
+              "RelativeToolTip": "RAM100_PRISM_2\\App.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:02:57.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DirectionPDF.xaml",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\DirectionPDF.xaml",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\Views\\DirectionPDF.xaml",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\DirectionPDF.xaml",
+              "RelativeToolTip": "RAM100_PRISM_2\\Views\\DirectionPDF.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-01T02:57:28.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Ingredients.cs",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Models\\Ingredients.cs",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\Models\\Ingredients.cs",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Models\\Ingredients.cs",
+              "RelativeToolTip": "RAM100_PRISM_2\\Models\\Ingredients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:53:21.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RAM100_PRISM_2.csproj",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\RAM100_PRISM_2.csproj",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\RAM100_PRISM_2.csproj",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\RAM100_PRISM_2.csproj",
+              "RelativeToolTip": "RAM100_PRISM_2\\RAM100_PRISM_2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T01:26:55.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.xaml",
+              "DocumentMoniker": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\Index.xaml",
+              "RelativeDocumentMoniker": "RAM100_PRISM_2\\Views\\Index.xaml",
+              "ToolTip": "X:\\Software\\MCRI_RAM\\RAM100_PRISM_2 - \u526F\u672C\\RAM100_PRISM_2\\Views\\Index.xaml",
+              "RelativeToolTip": "RAM100_PRISM_2\\Views\\Index.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T01:23:09.333Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

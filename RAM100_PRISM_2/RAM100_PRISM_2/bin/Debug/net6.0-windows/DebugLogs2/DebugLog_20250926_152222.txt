@@ -1,0 +1,32 @@
+﻿[2025-09-26 15:22:22.911] === 应用程序启动 ===
+[2025-09-26 15:22:22.914] 日志文件路径: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\DebugLogs2\DebugLog_20250926_152222.txt
+[2025-09-26 15:22:22.917] 当前工作目录: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows
+[2025-09-26 15:22:22.919] AutoRightWidgetViewModel 已创建！
+[2025-09-26 15:22:22.936] Serial open COM8
+[2025-09-26 15:22:23.098] 串口初始化失败: System.IO.FileNotFoundException: Could not find file 'COM8'.
+File name: 'COM8'
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at RAM100_PRISM_2.ViewModels.AutoRightWidgetViewModel.InitMoter() in X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\ViewModels\AutoRightWidgetViewModel.cs:line 776
+[2025-09-26 15:22:23.103] 电机初始化失败
+[2025-09-26 15:22:24.167] 开始刷新预设列表
+[2025-09-26 15:22:24.170] 预设文件夹路径: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets
+[2025-09-26 15:22:24.176] 找到 6 个预设文件
+[2025-09-26 15:22:24.404] 加载预设成功: 300代料
+[2025-09-26 15:22:24.408] 加载预设成功: 500公里火箭弹配方
+[2025-09-26 15:22:24.411] 加载预设成功: 900公里霹雳17
+[2025-09-26 15:22:24.414] 加载预设成功: HTPB代料
+[2025-09-26 15:22:24.417] 加载预设成功: 预设 1
+[2025-09-26 15:22:24.420] 加载预设成功: 预设 6
+[2025-09-26 15:22:24.424] 开始加载预设详情
+[2025-09-26 15:22:24.427] 加载预设文件: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets\300代料.json
+[2025-09-26 15:22:24.430] 找到 3 个时间段
+[2025-09-26 15:22:24.433] 添加阶段: 阶段1: 5分钟, 频率: 50Hz, 强度: 50%
+[2025-09-26 15:22:24.436] 添加阶段: 阶段2: 5分钟, 频率: 50Hz, 强度: 50%
+[2025-09-26 15:22:24.438] 添加阶段: 阶段3: 5分钟, 频率: 60Hz, 强度: 0.01%
+[2025-09-26 15:22:24.441] 成功加载 3 个阶段详情
+[2025-09-26 15:22:24.444] 默认选中第一个预设: 300代料
+[2025-09-26 15:22:27.524] 切换到阶段 2: 频率=50Hz, 强度=50%
+[2025-09-26 15:22:29.659] 停止自动执行
+[2025-09-26 15:22:29.662] 系统停止
+[2025-09-26 15:22:29.666] 自动执行已停止

@@ -1,0 +1,222 @@
+﻿<UserControl x:Class="RAM100_PRISM_2.Views.Index"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RAM100_PRISM_2.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1080">
+    <Grid Background="White">
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <!-- 第一行: 公司名和设备名 -->
+
+            <Grid Grid.Row="1"  
+                  VerticalAlignment="Top"  
+                  HorizontalAlignment="Left" 
+                  Width="1050" 
+                  
+                  Margin="20,20,0,0" 
+                  >
+                <!--<TextBlock Text="MCRI" FontSize="40" FontWeight="Normal" Foreground="#FF4A4A" Margin="0,0,20,0" FontFamily="Microsoft YaHei"/>-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" Margin="0,0,10,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="5*"/>
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0"  Source="pack://application:,,,/RAM100_PRISM_2;component/images/ram_long_logo.png" Stretch="Fill" Margin="0,0,0,0"/>
+                    <Grid Grid.Row="1" Height="5">
+
+                    </Grid>
+                    <Image Source="pack://application:,,,/RAM100_PRISM_2;component/images/lines_logo.png" Stretch="Fill" Grid.RowSpan="3" Margin="0,38,0,7"/>
+                </Grid>
+                <Grid Grid.Column="1"></Grid>
+                <TextBlock Grid.Column="2" FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="Microsoft YaHei" Height="76" Margin="92,25,0,0" HorizontalAlignment="Left">
+                    <Run Text="声共振"/><Run Language="zh-cn" Text="混合"/><Run Text="一体机"/></TextBlock>
+
+                <TextBlock Grid.Column="3" 
+                           FontSize="32" 
+                           FontWeight="Normal" 
+                           Foreground="Black" 
+                           FontFamily="Microsoft YaHei" 
+                           Height="76" 
+                           Margin="32,25,0,-4" HorizontalAlignment="Left" Grid.ColumnSpan="2" >
+                    <Run Text="cRAM100型"/></TextBlock>
+            </Grid>
+
+
+            <StackPanel Grid.Row="3" 
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Center" 
+                        Margin="10,10">
+                <Button FontSize="32" 
+                        Width="280" 
+                        Height="156" 
+                        Margin="10,0,20,0" 
+                        Background="#FF3F51B5" 
+                        Foreground="White"
+                        Command="{Binding NavigateToSplitViewCommand}" 
+                        CommandParameter="Scenario1" Cursor="Hand">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="90" Height="84" Margin="-10,0,10,0" Source="pack://application:,,,/RAM100_PRISM_2;component/images/manulControl.png"/>
+                        <TextBlock VerticalAlignment="Center">
+                            <Run Text="手动" FontWeight="Normal"/>
+                            <LineBreak/>
+                            <Run Text="操作" FontWeight="Normal"/>
+                        </TextBlock>
+                    </StackPanel>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="10" ShadowDepth="5" Opacity="0.5"/>
+                    </Button.Effect>
+                </Button>
+                <Button FontSize="32" 
+                        Width="280" 
+                        Height="156" 
+                        Margin="20,0,20,0"  
+                        Background="#FF009688" 
+                        Foreground="White"
+                        Command="{Binding NavigateToSplitViewCommand}" 
+                        CommandParameter="Scenario2">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="84" Height="82" Margin="-10,0,15,0" Source="pack://application:,,,/RAM100_PRISM_2;component/images/auto.png"/>
+                        <TextBlock VerticalAlignment="Center">
+                <Run Text="自动" FontWeight="Normal"/>
+                <LineBreak/>
+                <Run Text="操作" FontWeight="Normal"/>
+                        </TextBlock>
+                    </StackPanel>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="10" ShadowDepth="5" Opacity="0.5"/>
+                    </Button.Effect>
+                </Button>
+                <Button FontSize="32" 
+                        Width="280" 
+                        Height="156" 
+                        Margin="20,0,10,0"  
+                        Background="#FF607D8B" 
+                        Foreground="White"
+                        Command="{Binding NavigateToSettingsCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="79" Height="89" Margin="-10,0,20,0" Source="pack://application:,,,/RAM100_PRISM_2;component/images/presetEdit.png"/>
+                        <TextBlock VerticalAlignment="Center">
+                <Run Text="配方" FontWeight="Normal"/>
+                <LineBreak/>
+                <Run Text="管理" FontWeight="Normal"/>
+                        </TextBlock>
+                    </StackPanel>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="10" ShadowDepth="5" Opacity="0.5"/>
+                    </Button.Effect>
+                </Button>
+            </StackPanel>
+
+            <!-- 第三行: 5个稍小按钮 -->
+            <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Height="306" Width="940">
+                <Button FontSize="20" Width="141" Height="180" Margin="15, 15, 25, 15" Background="#FFFF5722" Foreground="White"
+                        Command="{Binding NavigateToAlarmCommand}">
+                    <StackPanel>
+                        <Image Width="64" Height="59" Margin="0,0,0,5" Source="pack://application:,,,/RAM100_PRISM_2;component/images/safe_shield.png"/>
+                        <TextBlock TextAlignment="Center">
+                            <Run Text="报警" FontWeight="Normal" FontSize="28"/>
+                            <LineBreak/>
+                            <Run Text="信息" FontWeight="Normal" FontSize="28"/>
+                        </TextBlock>
+                    </StackPanel>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="8" ShadowDepth="4" Opacity="0.4"/>
+                    </Button.Effect>
+                </Button>
+                <Button FontSize="20" Width="141" Height="180" Margin="25,15,25,15" Background="#FF795548" Foreground="White"
+                        Command="{Binding NavigateToHelpCommand}">
+                    <StackPanel>
+                        <Image Width="65" Height="57" Margin="0,0,0,5" Source="pack://application:,,,/RAM100_PRISM_2;component/images/doc.png"/>
+                        <TextBlock TextAlignment="Center">
+                            <Run Text="帮助" FontWeight="Normal" FontSize="28"/>
+                            <LineBreak/>
+                            <Run Text="文档" FontWeight="Normal" FontSize="28"/>
+                        </TextBlock>
+                    </StackPanel>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="8" ShadowDepth="4" Opacity="0.4"/>
+                    </Button.Effect>
+                </Button>
+                <Button FontSize="20" Width="141" Height="180" Margin="25,15,25,15" Background="#FF9C27B0" Foreground="White"
+                        Command="{Binding NavigateToUserCommand}">
+                    <StackPanel>
+                        <Image Width="59" Height="56" Margin="0,0,0,5" Source="pack://application:,,,/RAM100_PRISM_2;component/images/user.png"/>
+                        <TextBlock TextAlignment="Center">
+                            <Run Text="用户" FontWeight="Normal" FontSize="28"/>
+                            <LineBreak/>
+                            <Run Text="管理" FontWeight="Normal" FontSize="28"/>
+                        </TextBlock>
+                    </StackPanel>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="8" ShadowDepth="4" Opacity="0.4"/>
+                    </Button.Effect>
+                </Button>
+                <Button FontSize="20" Width="141" Height="180" Margin="25,15,25,15" Background="#FF2196F3" Foreground="White"
+                        Command="{Binding NavigateToLogCommand}">
+                    <StackPanel>
+                        <Image Width="63" Height="58" Margin="0,0,0,5" Source="pack://application:,,,/RAM100_PRISM_2;component/images/log.png"/>
+                        <TextBlock TextAlignment="Center">
+                            <Run Text="数据" FontWeight="Normal" FontSize="28"/>
+                            <LineBreak/>
+                            <Run Text="查询" FontWeight="Normal" FontSize="28"/>
+                        </TextBlock>
+                    </StackPanel>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="8" ShadowDepth="4" Opacity="0.4"/>
+                    </Button.Effect>
+                </Button>
+                <Button FontSize="20" Width="141" Height="180" Margin="25,15,25,15" Background="#FF4CAF50" Foreground="White"
+                        Command="{Binding NavigateToAboutCommand}">
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="8" ShadowDepth="4" Opacity="0.4"/>
+                    </Button.Effect>
+                    <StackPanel>
+                        <Image Width="57" Height="62" Margin="0,0,0,5" Source="pack://application:,,,/RAM100_PRISM_2;component/images/system.png"/>
+                        <TextBlock TextAlignment="Center">
+                            <Run Text="加料" FontWeight="Normal" FontSize="28"/>
+                            <LineBreak/>
+                            <Run Text="助手" FontWeight="Normal" FontSize="28"/>
+                        </TextBlock>
+                    </StackPanel>
+                </Button>
+
+
+            </StackPanel>
+
+        </Grid>
+
+
+
+
+        <!-- 右侧设备展示区域 -->
+        <!--
+        <Border Grid.Column="1" Margin="10,150,40,90" Background="Transparent" CornerRadius="10" Grid.ColumnSpan="2">
+            <Image Source="pack://application:,,,/RAM100_PRISM_2;component/images/RAM100.png" Stretch="Fill" Margin="0,49,0,98"/>
+
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="8" Opacity="0.6"/>
+            </Border.Effect>
+        </Border>-->
+    </Grid>
+</UserControl>

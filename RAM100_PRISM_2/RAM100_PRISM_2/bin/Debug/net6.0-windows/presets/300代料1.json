@@ -1,0 +1,25 @@
+{
+  "Name": "300代料1",
+  "TimeSlots": [
+    {
+      "Duration": 1,
+      "Frequency": 60.0,
+      "Intensity": 0.01
+    },
+    {
+      "Duration": 2,
+      "Frequency": 60.0,
+      "Intensity": 0.01
+    },
+    {
+      "Duration": 4,
+      "Frequency": 60.0,
+      "Intensity": 0.01
+    },
+    {
+      "Duration": 5,
+      "Frequency": 60.0,
+      "Intensity": 0.01
+    }
+  ]
+}

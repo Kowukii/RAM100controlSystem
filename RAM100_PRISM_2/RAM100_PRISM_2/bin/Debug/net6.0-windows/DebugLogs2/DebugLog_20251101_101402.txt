@@ -1,0 +1,29 @@
+﻿[2025-11-01 10:14:02.282] === 应用程序启动 ===
+[2025-11-01 10:14:02.284] 日志文件路径: X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\DebugLogs2\DebugLog_20251101_101402.txt
+[2025-11-01 10:14:02.285] 当前工作目录: X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows
+[2025-11-01 10:14:02.287] AutoRightWidgetViewModel 已创建！
+[2025-11-01 10:14:02.303] Serial open COM8
+[2025-11-01 10:14:02.334] 串口初始化失败: System.IO.FileNotFoundException: Could not find file 'COM8'.
+File name: 'COM8'
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at RAM100_PRISM_2.ViewModels.AutoRightWidgetViewModel.InitMoter() in X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\ViewModels\AutoRightWidgetViewModel.cs:line 826
+[2025-11-01 10:14:03.723] 开始刷新预设列表
+[2025-11-01 10:14:03.725] 预设文件夹路径: X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets
+[2025-11-01 10:14:03.727] 找到 7 个预设文件
+[2025-11-01 10:14:03.729] 加载预设成功: 300代料
+[2025-11-01 10:14:03.731] 加载预设成功: 300代料1
+[2025-11-01 10:14:03.733] 加载预设成功: 500公里火箭弹配方
+[2025-11-01 10:14:03.735] 加载预设成功: 900公里霹雳17
+[2025-11-01 10:14:03.737] 加载预设成功: HTPB代料
+[2025-11-01 10:14:03.739] 加载预设成功: 预设 1
+[2025-11-01 10:14:03.741] 加载预设成功: 预设 6
+[2025-11-01 10:14:03.743] 开始加载预设详情
+[2025-11-01 10:14:03.745] 加载预设文件: X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets\300代料.json
+[2025-11-01 10:14:03.747] 找到 4 个时间段
+[2025-11-01 10:14:03.748] 添加阶段: 阶段1: 2分钟, 频率: 61Hz, 强度: 0.01%
+[2025-11-01 10:14:03.750] 添加阶段: 阶段2: 1分钟, 频率: 59Hz, 强度: 0.02%
+[2025-11-01 10:14:03.752] 添加阶段: 阶段3: 1分钟, 频率: 59.5Hz, 强度: 0.03%
+[2025-11-01 10:14:03.754] 添加阶段: 阶段4: 5分钟, 频率: 60Hz, 强度: 0.01%
+[2025-11-01 10:14:03.755] 成功加载 4 个阶段详情
+[2025-11-01 10:14:03.757] 默认选中第一个预设: 300代料

@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="RAM100_PRISM_2.Views.SplitMiddleView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RAM100_PRISM_2.Views"
+             xmlns:prism="http://prismlibrary.com/" 
+             mc:Ignorable="d" 
+             d:DesignHeight="740" d:DesignWidth="854"
+             >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="2*"/>
+
+        </Grid.ColumnDefinitions>
+        <ContentControl Grid.Column="0"  prism:RegionManager.RegionName="ContentRegionLeft">
+        </ContentControl>
+        <ContentControl Grid.Column="1" prism:RegionManager.RegionName="ContentRegionRight">
+        </ContentControl>
+    </Grid>
+</UserControl>

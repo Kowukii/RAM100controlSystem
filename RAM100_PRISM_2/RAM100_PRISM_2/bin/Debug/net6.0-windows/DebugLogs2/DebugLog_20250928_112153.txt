@@ -1,0 +1,28 @@
+﻿[2025-09-28 11:21:53.875] === 应用程序启动 ===
+[2025-09-28 11:21:53.877] 日志文件路径: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\DebugLogs2\DebugLog_20250928_112153.txt
+[2025-09-28 11:21:53.879] 当前工作目录: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows
+[2025-09-28 11:21:53.880] AutoRightWidgetViewModel 已创建！
+[2025-09-28 11:21:53.997] Serial open COM8
+[2025-09-28 11:21:54.155] 串口初始化失败: System.IO.FileNotFoundException: Could not find file 'COM8'.
+File name: 'COM8'
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at RAM100_PRISM_2.ViewModels.AutoRightWidgetViewModel.InitMoter() in X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\ViewModels\AutoRightWidgetViewModel.cs:line 806
+[2025-09-28 11:21:54.157] 电机初始化失败
+[2025-09-28 11:21:55.729] 开始刷新预设列表
+[2025-09-28 11:21:55.731] 预设文件夹路径: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets
+[2025-09-28 11:21:55.736] 找到 6 个预设文件
+[2025-09-28 11:21:55.883] 加载预设成功: 300代料
+[2025-09-28 11:21:55.886] 加载预设成功: 500公里火箭弹配方
+[2025-09-28 11:21:55.889] 加载预设成功: 900公里霹雳17
+[2025-09-28 11:21:55.892] 加载预设成功: HTPB代料
+[2025-09-28 11:21:55.895] 加载预设成功: 预设 1
+[2025-09-28 11:21:55.898] 加载预设成功: 预设 6
+[2025-09-28 11:21:55.901] 开始加载预设详情
+[2025-09-28 11:21:55.902] 加载预设文件: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets\300代料.json
+[2025-09-28 11:21:55.904] 找到 3 个时间段
+[2025-09-28 11:21:55.907] 添加阶段: 阶段1: 2分钟, 频率: 61Hz, 强度: 0.01%
+[2025-09-28 11:21:55.908] 添加阶段: 阶段2: 1分钟, 频率: 59Hz, 强度: 0.02%
+[2025-09-28 11:21:55.910] 添加阶段: 阶段3: 1分钟, 频率: 59.5Hz, 强度: 0.03%
+[2025-09-28 11:21:55.912] 成功加载 3 个阶段详情
+[2025-09-28 11:21:55.916] 默认选中第一个预设: 300代料

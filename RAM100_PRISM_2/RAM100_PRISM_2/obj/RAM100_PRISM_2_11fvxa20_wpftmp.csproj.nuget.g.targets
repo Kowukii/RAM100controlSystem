@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.codedom\10.0.0-rc.1.25451.107\buildTransitive\netcoreapp2.0\System.CodeDom.targets" Condition="Exists('$(NuGetPackageRoot)system.codedom\10.0.0-rc.1.25451.107\buildTransitive\netcoreapp2.0\System.CodeDom.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.management\10.0.0-rc.1.25451.107\buildTransitive\netcoreapp2.0\System.Management.targets" Condition="Exists('$(NuGetPackageRoot)system.management\10.0.0-rc.1.25451.107\buildTransitive\netcoreapp2.0\System.Management.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.io.ports\10.0.0-rc.1.25451.107\buildTransitive\netcoreapp2.0\System.IO.Ports.targets" Condition="Exists('$(NuGetPackageRoot)system.io.ports\10.0.0-rc.1.25451.107\buildTransitive\netcoreapp2.0\System.IO.Ports.targets')" />
+    <Import Project="$(NuGetPackageRoot)materialdesignthemes\5.2.2-ci991\build\MaterialDesignThemes.targets" Condition="Exists('$(NuGetPackageRoot)materialdesignthemes\5.2.2-ci991\build\MaterialDesignThemes.targets')" />
+  </ImportGroup>
+</Project>

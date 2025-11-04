@@ -1,0 +1,15 @@
+{
+  "Name": "预设 1",
+  "TimeSlots": [
+    {
+      "Duration": 50,
+      "Frequency": 98.0,
+      "Intensity": 0.5
+    },
+    {
+      "Duration": 5,
+      "Frequency": 50.0,
+      "Intensity": 50.0
+    }
+  ]
+}

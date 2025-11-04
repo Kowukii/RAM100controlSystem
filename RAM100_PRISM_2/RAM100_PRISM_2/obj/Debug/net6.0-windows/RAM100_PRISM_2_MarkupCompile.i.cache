@@ -1,0 +1,20 @@
+﻿RAM100_PRISM_2
+1.0.0.0
+
+winexe
+C#
+.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\
+RAM100_PRISM_2
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\App.xaml
+161339311388
+19-1849052760
+39472342893
+2111218382997
+Views\acceDataView.xaml;Views\AutoControl.xaml;Views\AutoRightWidget.xaml;Views\DirectionPDF.xaml;Views\Index.xaml;Views\LvcView.xaml;Views\MainWindow.xaml;Views\ManulControl.xaml;Views\ManulRightWidget.xaml;Views\MsgView.xaml;Views\PresetManager.xaml;Views\SplitMiddleView.xaml;Views\SpView.xaml;Views\ToolPage.xaml;Views\ViewA.xaml;Views\ViewB.xaml;
+
+True
+

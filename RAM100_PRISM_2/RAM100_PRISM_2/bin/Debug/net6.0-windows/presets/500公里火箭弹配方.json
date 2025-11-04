@@ -1,0 +1,15 @@
+{
+  "Name": "500公里火箭弹配方",
+  "TimeSlots": [
+    {
+      "Duration": 5,
+      "Frequency": 61.5,
+      "Intensity": 0.24
+    },
+    {
+      "Duration": 5,
+      "Frequency": 62.0,
+      "Intensity": 0.05
+    }
+  ]
+}

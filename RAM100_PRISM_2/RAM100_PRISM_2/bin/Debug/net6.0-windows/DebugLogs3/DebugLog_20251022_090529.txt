@@ -1,0 +1,2 @@
+﻿[2025-10-22 09:05:29.377] === 应用程序启动 ===
+[2025-10-22 09:05:29.400] 日志文件路径: X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\DebugLogs3\DebugLog_20251022_090529.txt

@@ -1,0 +1,6 @@
+﻿[2025-10-11 10:28:36.483] === 应用程序启动 ===
+[2025-10-11 10:28:36.485] 日志文件路径: X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\DebugLogs3\DebugLog_20251011_102836.txt
+[2025-10-11 10:28:37.587] 在OnNavigateToSplitView调用RequestNavigate
+[2025-10-11 10:28:37.590] 在OnNavigateToSplitView时parameters: ?LeftView=PageAcc&RightView=PageAcc
+[2025-10-11 10:28:41.339] 在OnNavigateToSplitView调用RequestNavigate
+[2025-10-11 10:28:41.342] 在OnNavigateToSplitView时parameters: ?LeftView=PageAcc&RightView=PageAcc

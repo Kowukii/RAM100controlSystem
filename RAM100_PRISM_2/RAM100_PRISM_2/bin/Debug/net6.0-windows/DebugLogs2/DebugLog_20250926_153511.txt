@@ -1,0 +1,33 @@
+﻿[2025-09-26 15:35:11.360] === 应用程序启动 ===
+[2025-09-26 15:35:11.364] 日志文件路径: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\DebugLogs2\DebugLog_20250926_153511.txt
+[2025-09-26 15:35:11.368] 当前工作目录: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows
+[2025-09-26 15:35:11.371] AutoRightWidgetViewModel 已创建！
+[2025-09-26 15:35:11.392] Serial open COM8
+[2025-09-26 15:35:11.599] 串口初始化失败: System.IO.FileNotFoundException: Could not find file 'COM8'.
+File name: 'COM8'
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at RAM100_PRISM_2.ViewModels.AutoRightWidgetViewModel.InitMoter() in X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\ViewModels\AutoRightWidgetViewModel.cs:line 787
+[2025-09-26 15:35:11.603] 电机初始化失败
+[2025-09-26 15:35:12.952] 开始刷新预设列表
+[2025-09-26 15:35:12.955] 预设文件夹路径: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets
+[2025-09-26 15:35:12.962] 找到 6 个预设文件
+[2025-09-26 15:35:13.166] 加载预设成功: 300代料
+[2025-09-26 15:35:13.169] 加载预设成功: 500公里火箭弹配方
+[2025-09-26 15:35:13.171] 加载预设成功: 900公里霹雳17
+[2025-09-26 15:35:13.175] 加载预设成功: HTPB代料
+[2025-09-26 15:35:13.179] 加载预设成功: 预设 1
+[2025-09-26 15:35:13.182] 加载预设成功: 预设 6
+[2025-09-26 15:35:13.186] 开始加载预设详情
+[2025-09-26 15:35:13.189] 加载预设文件: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets\300代料.json
+[2025-09-26 15:35:13.192] 找到 3 个时间段
+[2025-09-26 15:35:13.195] 添加阶段: 阶段1: 5分钟, 频率: 50Hz, 强度: 50%
+[2025-09-26 15:35:13.198] 添加阶段: 阶段2: 5分钟, 频率: 50Hz, 强度: 50%
+[2025-09-26 15:35:13.200] 添加阶段: 阶段3: 5分钟, 频率: 60Hz, 强度: 0.01%
+[2025-09-26 15:35:13.202] 成功加载 3 个阶段详情
+[2025-09-26 15:35:13.206] 默认选中第一个预设: 300代料
+[2025-09-26 15:35:16.518] 电机启动失败: 频率=50Hz, 强度=5000%
+[2025-09-26 15:35:17.536] 停止自动执行
+[2025-09-26 15:35:17.540] 系统停止
+[2025-09-26 15:35:17.544] 自动执行已停止
+[2025-09-26 15:35:17.547] 开始执行配方: 300代料, 总时长: 0秒, 共 3 个阶段

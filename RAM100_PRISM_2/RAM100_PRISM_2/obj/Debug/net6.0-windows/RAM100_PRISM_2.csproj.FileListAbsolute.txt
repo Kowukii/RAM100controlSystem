@@ -1,0 +1,159 @@
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.exe
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.deps.json
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.runtimeconfig.json
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.pdb
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\DryIoc.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\Prism.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\Prism.DryIoc.Wpf.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\Prism.Wpf.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.csproj.AssemblyReference.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\MainWindow.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ViewA.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ViewB.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\App.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2_MarkupCompile.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2_MarkupCompile.lref
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ViewA.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ViewB.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.g.resources
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.GeneratedMSBuildEditorConfig.editorconfig
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.AssemblyInfoInputs.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.AssemblyInfo.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.csproj.CoreCompileInputs.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_P.AD84DC3D.Up2Date
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\refint\RAM100_PRISM_2.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.pdb
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.genruntimeconfig.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\ref\RAM100_PRISM_2.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\MsgView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\MsgView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\App.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\Index.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\Index.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\LiveCharts.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\LvcView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\LvcView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\ScottPlot.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\ScottPlot.WPF.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\SpView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\SpView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ManulControl.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ManulControl.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\PresetManager.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\PresetManager.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\AutoControl.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\AutoControl.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2_Content.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\KeyBoard.WPF.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\System.CodeDom.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\System.IO.Ports.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\System.Management.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.IO.Ports.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ManulRightWidget.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ManulRightWidget.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\acceDataView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\acceDataView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\SplitMiddleView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\SplitMiddleView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\AutoRightWidget.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\AutoRightWidget.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.exe
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.deps.json
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.runtimeconfig.json
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\RAM100_PRISM_2.pdb
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\DryIoc.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\KeyBoard.WPF.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\LiveCharts.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\Prism.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\Prism.DryIoc.Wpf.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\Prism.Wpf.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\ScottPlot.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\ScottPlot.WPF.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\System.CodeDom.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\System.IO.Ports.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\System.Management.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.IO.Ports.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.csproj.AssemblyReference.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\MainWindow.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\acceDataView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\AutoControl.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\AutoRightWidget.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\Index.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\LvcView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ManulControl.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ManulRightWidget.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\MsgView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\PresetManager.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\SplitMiddleView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\SpView.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ViewA.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ViewB.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\App.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2_Content.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2_MarkupCompile.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2_MarkupCompile.lref
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\App.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\acceDataView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\AutoControl.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\AutoRightWidget.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\Index.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\LvcView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ManulControl.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ManulRightWidget.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\MsgView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\PresetManager.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\SplitMiddleView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\SpView.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ViewA.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ViewB.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.g.resources
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.GeneratedMSBuildEditorConfig.editorconfig
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.AssemblyInfoInputs.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.AssemblyInfo.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.csproj.CoreCompileInputs.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_P.AD84DC3D.Up2Date
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\refint\RAM100_PRISM_2.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.pdb
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\RAM100_PRISM_2.genruntimeconfig.cache
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\ref\RAM100_PRISM_2.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\DirectionPDF.baml
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\texts\direction.pdf
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\PdfiumViewer.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\nl\PdfiumViewer.resources.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\x64\pdfium.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\bin\Debug\net6.0-windows\x86\pdfium.dll
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\DirectionPDF.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ToolPage.g.cs
+X:\Software\MCRI_RAM\RAM100_PRISM_2 - 副本\RAM100_PRISM_2\obj\Debug\net6.0-windows\Views\ToolPage.baml

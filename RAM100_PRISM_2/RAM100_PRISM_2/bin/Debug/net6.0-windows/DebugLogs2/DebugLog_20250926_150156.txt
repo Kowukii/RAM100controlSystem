@@ -1,0 +1,33 @@
+﻿[2025-09-26 15:01:56.960] === 应用程序启动 ===
+[2025-09-26 15:01:56.962] 日志文件路径: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\DebugLogs2\DebugLog_20250926_150156.txt
+[2025-09-26 15:01:56.964] 当前工作目录: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows
+[2025-09-26 15:01:56.965] AutoRightWidgetViewModel 已创建！
+[2025-09-26 15:01:56.976] Serial open COM8
+[2025-09-26 15:01:57.084] 串口初始化失败: System.IO.FileNotFoundException: Could not find file 'COM8'.
+File name: 'COM8'
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at RAM100_PRISM_2.ViewModels.AutoRightWidgetViewModel.InitMoter() in X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\ViewModels\AutoRightWidgetViewModel.cs:line 776
+[2025-09-26 15:01:57.087] 电机初始化失败
+[2025-09-26 15:01:58.479] 开始刷新预设列表
+[2025-09-26 15:01:58.481] 预设文件夹路径: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets
+[2025-09-26 15:01:58.485] 找到 6 个预设文件
+[2025-09-26 15:01:58.627] 加载预设成功: 300代料
+[2025-09-26 15:01:58.629] 加载预设成功: 500公里火箭弹配方
+[2025-09-26 15:01:58.630] 加载预设成功: 900公里霹雳17
+[2025-09-26 15:01:58.632] 加载预设成功: HTPB代料
+[2025-09-26 15:01:58.634] 加载预设成功: 预设 1
+[2025-09-26 15:01:58.636] 加载预设成功: 预设 6
+[2025-09-26 15:01:58.639] 开始加载预设详情
+[2025-09-26 15:01:58.641] 加载预设文件: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets\300代料.json
+[2025-09-26 15:01:58.643] 找到 3 个时间段
+[2025-09-26 15:01:58.645] 添加阶段: 阶段1: 5分钟, 频率: 50Hz, 强度: 50%
+[2025-09-26 15:01:58.647] 添加阶段: 阶段2: 5分钟, 频率: 50Hz, 强度: 50%
+[2025-09-26 15:01:58.648] 添加阶段: 阶段3: 5分钟, 频率: 60Hz, 强度: 0.01%
+[2025-09-26 15:01:58.650] 成功加载 3 个阶段详情
+[2025-09-26 15:01:58.652] 默认选中第一个预设: 300代料
+[2025-09-26 15:02:13.016] 开始加载预设详情
+[2025-09-26 15:02:13.019] 加载预设文件: X:\Software\MCRI_RAM\RAM100_PRISM_2\RAM100_PRISM_2\bin\Debug\net6.0-windows\presets\预设 6.json
+[2025-09-26 15:02:13.021] 找到 1 个时间段
+[2025-09-26 15:02:13.023] 添加阶段: 阶段1: 5分钟, 频率: 60Hz, 强度: 0.01%
+[2025-09-26 15:02:13.025] 成功加载 1 个阶段详情

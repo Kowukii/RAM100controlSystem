@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>images\ram_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="images\7.jpg" />
+    <None Remove="images\auto.png" />
+    <None Remove="images\doc.png" />
+    <None Remove="images\f4.jpg" />
+    <None Remove="images\index_model.png" />
+    <None Remove="images\lines_logo.png" />
+    <None Remove="images\log.png" />
+    <None Remove="images\manulControl.png" />
+    <None Remove="images\presetEdit.png" />
+    <None Remove="images\RAM100.png" />
+    <None Remove="images\ram_icon.ico" />
+    <None Remove="images\ram_icon.png" />
+    <None Remove="images\ram_long_logo.png" />
+    <None Remove="images\safe_shield.png" />
+    <None Remove="images\system.png" />
+    <None Remove="images\user.png" />
+    <None Remove="texts\direction.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\7.jpg" />
+    <Content Include="images\auto.png" />
+    <Content Include="images\doc.png" />
+    <Content Include="images\f4.jpg" />
+    <Content Include="images\index_model.png" />
+    <Content Include="images\lines_logo.png" />
+    <Content Include="images\log.png" />
+    <Content Include="images\manulControl.png" />
+    <Content Include="images\presetEdit.png" />
+    <Content Include="images\RAM100.png" />
+    <Content Include="images\ram_icon.ico" />
+    <Content Include="images\ram_icon.png" />
+    <Content Include="images\ram_long_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\safe_shield.png" />
+    <Content Include="images\system.png" />
+    <Content Include="images\user.png" />
+    <Content Include="texts\direction.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="KeyBoard.WPF" Version="2.0.2" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.2-ci991" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4-beta1" />
+    <PackageReference Include="PdfiumViewer" Version="2.13.0" />
+    <PackageReference Include="PdfiumViewer.Native.x86.v8-xfa" Version="2018.4.8.256" />
+    <PackageReference Include="PdfiumViewer.Native.x86_64.v8-xfa" Version="2018.4.8.256" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+    <PackageReference Include="ScottPlot.WPF" Version="4.1.58" />
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+  </ItemGroup>
+</Project>

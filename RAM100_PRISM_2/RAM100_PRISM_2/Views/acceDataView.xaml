@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="RAM100_PRISM_2.Views.acceDataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RAM100_PRISM_2.Views"
+             xmlns:vm="clr-namespace:RAM100_PRISM_2.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="740" d:DesignWidth="854">
+    <UserControl.Resources>
+        <DropShadowEffect x:Key="ShadowEffect" BlurRadius="10" ShadowDepth="2" Opacity="0.2" Color="#000000"/>
+        
+        <!-- 图表标题样式 -->
+        <Style x:Key="ChartTitleStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#2C3E50"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Border BorderBrush="#DDDDDD" BorderThickness="1" CornerRadius="8"
+                Margin="5, 5, 2.5, 5" Background="White" Effect="{StaticResource ShadowEffect}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Foreground="Black" 
+                           FontWeight="Bold" 
+                           FontSize="20" 
+                           HorizontalAlignment="Center"
+                           Text="{Binding CurrentAccelerationValue, StringFormat='加速度采集值: {0:F3} g'}"
+                           Margin="10"/>
+
+                <!-- 图表区域 -->
+                <Border Grid.Row="1" Margin="5, 0, 5, 10">
+                    <WpfPlot Name="wpfPlot" 
+                             DataContext="{Binding DataList}"
+                             Background="White">
+                        <WpfPlot.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </WpfPlot.RenderTransform>
+                    </WpfPlot>
+
+                    
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
